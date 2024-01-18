@@ -38,8 +38,8 @@ public class MainApp {
       }
 
       System.out.println("__________________");
-      User user = userService.getUserByCarInfo("car41", 41);
-//      System.out.println(userService.getUserByCarInfo("car41", 41));
+
+      System.out.println(userService.getUserByCarInfo("car41", 41));
 
       context.close();
    }
